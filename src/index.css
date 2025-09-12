@@ -4,3 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+  @apply opacity-70 hover:opacity-100 relative lg:pb-2 transition-all duration-300 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-white after:w-0 hover:after:w-full after:transition-all after:duration-300;
+}
