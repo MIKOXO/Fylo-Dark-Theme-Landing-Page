@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/layout/Hero";
 import Features from "../components/layout/Features";
+import Productivity from "../components/layout/Productivity";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <Features />
+        <Productivity />
       </main>
     </>
   );
