@@ -3,7 +3,7 @@ import heroImage from "../../assets/illustration-intro.png";
 
 const Hero = () => {
   return (
-    <section className="mx-auto container p-6 mt-5 lg:mt-14">
+    <section className="z-50 relative overflow-hidden mt-5 lg:mt-14 mx-auto container p-6">
       <div className="flex flex-col items-center">
         {/* Image */}
         <div>
