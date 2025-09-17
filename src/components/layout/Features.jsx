@@ -41,12 +41,12 @@ const Features = () => {
   return (
     <>
       {/* Background Image Based on Screen Size */}
-      <div className="relative -top-[180px] lg:-top-[250px] z-0">
+      <div className="relative z-0">
         <img src={bgImage} alt="" className="w-full hidden md:block" />
         <img src={bgImageMobile} alt="" className="w-full md:hidden" />
       </div>
 
-      <section className="bg-Navy900 relative -top-[180px] lg:-top-[250px] z-10 lg:-mt-10 max-sm:pt-20 min-h-screen">
+      <section className="bg-Navy900 z-10 lg:-mt-10 py-20">
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 justify-items-center">
           {features.map((feature) => (
             <div key={feature.id} className="text-center">

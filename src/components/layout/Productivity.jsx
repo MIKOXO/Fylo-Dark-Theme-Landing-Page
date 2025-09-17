@@ -4,7 +4,7 @@ import iconArrow from "../../assets/icon-arrow.svg";
 
 const Productivity = () => {
   return (
-    <section className="bg-Navy900 relative -top-[180px] lg:-top-[250px] max-sm:pt-20 z-10 min-h-screen">
+    <section className="bg-Navy900 z-10 py-20">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
         {/* Image */}
         <div>
