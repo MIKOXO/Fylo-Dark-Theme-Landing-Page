@@ -5,6 +5,7 @@ import Features from "../components/layout/Features";
 import Productivity from "../components/layout/Productivity";
 import Testimonial from "../components/layout/Testimonial";
 import CTA from "../components/layout/CTA";
+import Footer from "../components/layout/Footer";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Productivity />
         <Testimonial />
         <CTA />
+        <Footer />
       </main>
     </>
   );
