@@ -23,8 +23,8 @@ const CTA = () => {
   };
 
   return (
-    <section className="bg-Navy900 relative -top-[180px] px-6 lg:-top-[250px] max-sm:pt-20 z-10 py-20">
-      <div className="bg-Navy850 rounded-lg shadow-lg max-w-3xl text-White p-10 text-center mx-auto container">
+    <section className="bg-Navy900 px-6 py-20">
+      <div className="bg-Navy850 z-50 -mb-44 relative rounded-lg shadow-lg max-w-3xl text-White p-10 text-center mx-auto container">
         <h2 className="text-3xl font-Raleway font-bold mb-4">
           Get early access today
         </h2>
