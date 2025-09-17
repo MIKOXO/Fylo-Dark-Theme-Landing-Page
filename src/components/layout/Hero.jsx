@@ -3,7 +3,7 @@ import heroImage from "../../assets/illustration-intro.png";
 
 const Hero = () => {
   return (
-    <section className="z-50 relative overflow-hidden mt-5 lg:mt-14 mx-auto container p-6">
+    <section className="z-50 relative overflow-hidden mt-24 lg:mt-44 mx-auto container p-6 -mb-32">
       <div className="flex flex-col items-center">
         {/* Image */}
         <div>
@@ -15,7 +15,7 @@ const Hero = () => {
           <h1 className="font-Raleway font-bold text-[24px] sm:text-[36px] mb-6 max-w-[700px] mx-auto">
             All your files in one secure location, accessible anywhere.
           </h1>
-          <p className="font-OpenSans max-w-[500px] mx-auto max-sm:text-[14px]">
+          <p className="font-OpenSans max-w-[500px] mx-auto max-sm:text-[14px] opacity-75">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friends,
             family and co-workers.
